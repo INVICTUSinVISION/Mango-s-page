@@ -1,0 +1,22 @@
+body{
+	margin: 0;
+	font-family: 'Architects Daughter', cursive;
+}
+
+header{
+	background-color: blue;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+header h1{
+	color: whitesmoke;
+
+}
+
+header img{
+	border-radius: 150px;
+	width: 300px;
+	border: 10px solid darkmagenta;
+}
