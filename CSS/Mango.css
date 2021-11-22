@@ -1,6 +1,8 @@
 body{
 	margin: 0;
 	font-family: 'Architects Daughter', cursive;
+	font-size: 20px;
+	line-height: 20px;
 }
 
 header{
@@ -18,5 +20,41 @@ header h1{
 header img{
 	border-radius: 150px;
 	width: 300px;
-	border: 10px solid darkmagenta;
+	border: 10px solid white;
+}
+main img {
+	border: 10px solid blue;
+	border-radius: 150px;
+}
+main{max-width: 800px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+a {
+	color: teal;
+}
+a:hover {
+	color: teal;
+	background-color: blueviolet;
+}
+
+footer {
+	background-color: blue; 
+	text-align: center;
+	color: whitesmoke;
+	padding: 50px;
+}
+
+footer p{
+	margin: 0;
+}
+
+footer a:hover{
+	opacity: .5;
+	background-color: transparent;
 }
